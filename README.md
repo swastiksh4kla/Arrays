@@ -4,7 +4,9 @@ git add .       (used to malke all changes ready for commit)
 
 git commit -m "message"     (used to commit changes to the repository)
 
-git push origin main       (used to push commited changes to the repo)
+git push origin main       (used to push commited changes in remote git from local desktop)
+
+git pull origin main    (used to pull changes from github to local device)
 
 cd ..       (used to go one step back to the head folder)
 
