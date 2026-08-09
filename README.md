@@ -7,3 +7,5 @@ git commit -m "message"     (used to commit changes to the repository)
 git push origin main       (used to push commited changes to the repo)
 
 cd ..       (used to go one step back to the head folder)
+
+mkdir newRepo    (will create new repo/folder)
