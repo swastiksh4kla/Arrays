@@ -11,3 +11,6 @@ git pull origin main    (used to pull changes from github to local device)
 cd ..       (used to go one step back to the head folder)
 
 mkdir newRepo    (will create new repo/folder)
+
+git reset   (used if something deleted by mistake and add for commit then it can stop from
+commiting)
