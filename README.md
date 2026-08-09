@@ -14,3 +14,5 @@ mkdir newRepo    (will create new repo/folder)
 
 git reset   (used if something deleted by mistake and add for commit then it can stop from
 commiting)
+
+git reset ---hard   (used to reset changes also in code editor)
