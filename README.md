@@ -16,3 +16,5 @@ git reset   (used if something deleted by mistake and add for commit then it can
 commiting)
 
 git reset ---hard   (used to reset changes also in code editor)
+
+SWASTIK
