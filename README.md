@@ -17,4 +17,4 @@ commiting)
 
 git reset ---hard   (used to reset changes also in code editor)
 
-SWASTIK
+SWASTIK Shukla
