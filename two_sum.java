@@ -1,3 +1,5 @@
+//Time Complexity: O(n²)
+//Space Complexity: O(1)
 public class two_sum {
     public static void main(String[] args) {
         int[] arr= {4,7,3,2,9};
