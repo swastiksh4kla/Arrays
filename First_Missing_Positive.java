@@ -1,5 +1,23 @@
-//Time Complexity: O(n)
-//Space Complexity: O(1)
+//BRUTE FORCE SOLUTION (if largest element of nums array known)
+//Time Complexity: O(n)    Space Complexity: O(n)
+class Solution {
+    public int firstMissingPositive(int[] nums) {
+        (if max element of nums array known)
+        HashSet<Integer> set = new HashSet<>();
+        for(int i=0;i<nums.length;i++){
+            if(nums[i]>0)   set.add(nums[i]);
+        }
+        for(int i=1;i<=nums.length;i++){
+            if(!set.contains(i))    return i;
+        }
+        return nums.length+1;
+    }
+}
+
+
+//OPTIMIZED SOLUTION
+//Time Complexity: O(n)    &    Space Complexity: O(1)
+/*
 class Solution {
     public int firstMissingPositive(int[] nums) {
         int i=0; 
@@ -20,3 +38,4 @@ class Solution {
         return nums.length+1;
     }
 }
+*/
