@@ -53,3 +53,42 @@ class Solution {
     }
 }
 */
+
+
+
+//OPTIMIZED APPROACH    (using two pointer)
+//Time Complexity: O(n)    &    Space Complexity: O(1)
+/*
+class Solution {
+    public int trap(int[] height) {
+        if(height==null || height.length==0)    return 0;
+        //time: O(n)    space: O(1)
+        int water = 0;
+        int left = 0;
+        int right = height.length-1;
+        int maxL = height[left];
+        int maxR = height[right];
+        while(left<right){
+            if(height[left]<height[right]){
+                if(height[left]>maxL){
+                    maxL = height[left];
+                }
+                else{
+                    water += maxL-height[left];
+                }
+                left++;
+            }
+            else{
+                if(height[right]>maxR){
+                    maxR = height[right];
+                }
+                else{
+                    water += maxR-height[right];
+                }
+                right--;;
+            }
+        }
+        return water;
+    }
+}
+*/
